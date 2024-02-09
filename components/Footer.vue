@@ -1,7 +1,14 @@
 <template>
 	<div class="container-footer mx-auto pt-7">
-		<div>Вадім Ізмайлович</div>
-		<img class="size-img" src='/vadim.jpg'/>
+		<div>
+		   <NuxtLink to='https://github.com/Vadim-05/SPA' target='_blank'>посилання на git</NuxtLink>
+		</div>
+	    <div>
+		    <div class="text-center">
+		        Ізмайлович Вадім
+		    </div>
+		    <img class="size-img" src='/vadim.jpg'/>
+	    </div>
 	</div>
 </template>
 <style>
